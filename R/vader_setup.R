@@ -173,7 +173,7 @@ BOOSTER_DICT = c(BOOSTER_POS, BOOSTER_NEG)
 
 # check for special case idioms using a sentiment-laden keyword known to SAGE
 IDIOMS = c(
-  # "the shit" = 3,
+  "the shit" = 3,
            "the bomb" = 3,
            "bad ass" = 1.5,                                  ### BOTH WORDS IN DICT
            # "badass" = 1.5,                                 ### removing because in dictionary as single word
@@ -192,7 +192,6 @@ IDIOMS = c(
            "in the black" = 2,
            "in the red" = -2,
            "on the ball" = 2,
-           "under the weather" = -2,
-           "hodl" = 3,
-           "jeffery epstein" = 3)
+           "under the weather" = -2
+  )
            
