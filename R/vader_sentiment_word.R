@@ -10,7 +10,7 @@ get_vader_score <- function(item){
   # get raw vader score
   vrow <- which(vaderLexicon$V1==item)
   valence <- vaderLexicon[vrow,2]
-  return(valence)
+  return(valence %>% as.numeric())
 }
 
 ##################################
