@@ -191,4 +191,6 @@ IDIOMS = c("the shit" = 3,
            "in the black" = 2,
            "in the red" = -2,
            "on the ball" = 2,
-           "under the weather" = -2)
+           "under the weather" = -2,
+           "hodl" = 3)
+           
